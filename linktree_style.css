@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --bg: rgb(25, 25, 25);
+    --bgcard: rgb(73, 73, 73);
+    --name: #949494;
+    --title: #e8ebee;
+
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "barlow", sans-serif; 
+    background-color: var(--bg);
+}
+
+main {
+    margin: auto;
+    margin-top: 2vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 90%;
+}
+
+
+.card {
+    width:100%;
+    display: flex;
+    padding: 16px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://i1.sndcdn.com/artworks-GEV4xQflhM2MaAs9-uFdhQQ-t500x500.jpg");
+}
+
+.info {
+    color: white;
+    width: 100%;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+a {
+    color: var(--name);
+}
+
+a:visited{
+    color: var(--name);
+}
+
+
+
+
+.card {
+    width: 500px;
+    /*height: 15vh;*/
+    display:flex;
+    gap: 8px;
+    background-color: var(--bgcard);
+    color: white;
+}
+
+.name {
+    font-size: 20px;
+    color: var(--name);
+}
+
+.title {
+    font-size: 28px;
+    color: var(--title)
+}
+
+
+#photo1 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("/Users/ariana/Desktop/machino.png");
+}
+
+#photo2 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://i1.sndcdn.com/artworks-GEV4xQflhM2MaAs9-uFdhQQ-t500x500.jpg");
+}
+#photo3 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://f4.bcbits.com/img/a2514703927_16.jpg");
+}
+#photo4 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("https://f4.bcbits.com/img/a1260677375_16.jpg");
+}
